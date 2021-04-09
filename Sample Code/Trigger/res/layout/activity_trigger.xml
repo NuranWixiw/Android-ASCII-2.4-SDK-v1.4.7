@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TriggerActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/asynchronousCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/async_checkbox_title" />
+
+    <CheckBox
+        android:id="@+id/pollingCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/asynchronousCheckBox"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/asynchronousCheckBox"
+        android:layout_marginBottom="16dp"
+        android:text="@string/polling_checkbox" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pollingCheckBox"
+        android:layout_alignRight="@+id/pollingCheckBox"
+        android:layout_below="@+id/pollingCheckBox"
+        android:text="@string/configuration_info_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/status_background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/status_frame"
+        android:background="#888" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status_background_view"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/vHeaderCentreLineView"
+        android:gravity="center_horizontal"
+        android:text="@string/report_column_heading"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+    <View
+        android:id="@+id/vHeaderCentreLineView"
+        android:layout_width="4dp"
+        android:layout_height="88dp"
+        android:layout_alignBottom="@+id/status_background_view"
+        android:layout_alignTop="@+id/status_background_view"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:background="#aaa" />
+
+    <RelativeLayout
+        android:id="@+id/status_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginBottom="8dp" >
+
+        <View
+            android:id="@+id/vCentreLineView"
+            android:layout_width="4dp"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#aaa" />
+
+        <TextView
+            android:id="@+id/asyncSingleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hCentreLineView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:layout_toLeftOf="@+id/vCentreLineView"
+            android:background="#c00"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/status_single_text"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/polledSingleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hCentreLineView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/vCentreLineView"
+            android:background="#c00"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/status_single_text"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/hCentreLineView"
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/asyncDoubleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hCentreLineView"
+            android:layout_margin="16dp"
+            android:layout_toLeftOf="@+id/vCentreLineView"
+            android:background="#080"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/status_double_text"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/polledDoubleTextView"
+            android:layout_width="119dp"
+            android:layout_height="83dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hCentreLineView"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/vCentreLineView"
+            android:background="#080"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/status_double_text"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/status_background_view"
+        android:layout_alignTop="@+id/status_background_view"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/vHeaderCentreLineView"
+        android:gravity="center_horizontal"
+        android:text="@string/polled_column_heading"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+</RelativeLayout>

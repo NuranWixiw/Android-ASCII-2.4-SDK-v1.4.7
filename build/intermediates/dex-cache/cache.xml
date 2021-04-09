@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\a49b7996e049069007bb49ee63efe9840b46c1a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_e30c963594f0c96ece99533136fc566743b0c134.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\bbfdca39f260dcfdb72036a45d0c71c7ade03e82\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61f91cf6ffae577032fc5d1c8169a8a182be7d50">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_0ce48c2db7b93154e0303c024714f08524bd432d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\7b9d667750ad61bf271c54df00c6402f3a6fcad4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_0aaf5e12df0a7eb8bfcf2c8e754c7c29350e6d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\f1020b67b827ce17f15dc8f45d6ad5bba2dc0020\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_00d7be88a6f056796859d72882e2b133a63d679a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\ba6a02cb67b66445403e7539054abd934f9de094\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_5d26161b84b8fccd0d4e443aa6733aaf4cbef8ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4455debb392bc59d145e4d6a230838949ee53260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\7a8a7543938421e73d0103e4311a611671aed5b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_f9e177bb3582d14b96a35986d75fdde4ed993968.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\DeviceList\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb20b119923d6b9599e0a15f9b186af4820bcc87">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_31b3f3f8de088183516008e609fa207ba54e5cef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\3c7b95768887ce6adf1c40f0e2785fc656ad47ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_241db8ff235647006936fd7552b09b5ea8e0ac55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\b7c0b56d857032e03618a0aaf20b086d53d109e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_9b886d394e320fd790d269c93711b7d05d516810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\a4dd40906ed119172e0f8521d877c2c7f8ba9071\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_2866d6d951b4bba853787a558872ddc5d292d41f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eyup\.android\build-cache\b985a3bb865ccf63258742fdf2dd88668cb80ef2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Eyup\Desktop\Essen\El Terminali Folder\tsl\Android ASCII 2.4 SDK v1.4.7\Sample Code\Inventory\build\intermediates\pre-dexed\debug\classes_4c088c8f923c8fea3c3fe6e28b68cfed06f81296.jar" />
+    </item>
+
+</items>

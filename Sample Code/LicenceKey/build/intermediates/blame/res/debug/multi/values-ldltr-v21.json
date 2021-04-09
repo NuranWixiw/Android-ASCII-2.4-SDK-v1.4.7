@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Eyup\\Desktop\\Essen\\El Terminali Folder\\tsl\\Android ASCII 2.4 SDK v1.4.7\\Sample Code\\LicenceKey\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\Eyup\\.android\\build-cache\\a49b7996e049069007bb49ee63efe9840b46c1a2\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    }
+]

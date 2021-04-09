@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:Rfid.AsciiProtocol-Library:unspecified@jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Rfid.AsciiProtocol-Library/build/.transforms/1a81d5ea575fb415ad91b69b83619f50/Rfid.AsciiProtocol-1.4.7-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/Rfid.AsciiProtocol-Library/build/.transforms/1a81d5ea575fb415ad91b69b83619f50/Rfid.AsciiProtocol-1.4.7-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/Rfid.AsciiProtocol-Library/build/.transforms/1a81d5ea575fb415ad91b69b83619f50/Rfid.AsciiProtocol-1.4.7-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

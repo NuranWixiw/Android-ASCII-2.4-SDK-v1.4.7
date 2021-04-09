@@ -1,0 +1,10 @@
+//
+// The SDK modules
+//
+include ':Rfid.AsciiProtocol-Library'
+include ':Sample Code:ConfigureBarcode'
+include ':Sample Code:Trigger'
+include ':Sample Code:Inventory'
+include ':Sample Code:ReadWrite'
+include ':Sample Code:LicenceKey'
+include ':DeviceList'

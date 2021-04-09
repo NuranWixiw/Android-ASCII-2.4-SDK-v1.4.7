@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Licence Key</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="banner_title_authorised">Authorised</string>
+    <string name="banner_title_not_authorised">Not Authorised</string>
+    
+    <string name="secret_placeholder_text">Enter secret here</string>
+    <string name="secret_title">The Authorisation \'Secret\'</string>
+    <string name="secret_description">The licence key is generated from this Secret, the reader\'s Serial Number and Bluetooth Address</string>
+
+    <string name="authorise_button_text">Authorise</string>
+    <string name="de_authorise_button_text">De-authorise</string>
+        
+    <string name="authorise_description">Write the licence key file to the reader</string>
+    <string name="de_authorise_description">Remove ANY licence key file from the reader</string>
+    
+    <string name="only_authorised_readers_title">Only respond to authorised readers</string>
+    <string name="authorised_reader_description">The reader functionality is unaffected by authorisation. The App determines if it will respond to the connected reader by examining its licence key.</string>
+
+    <string name="inventory_button_text">Inventory</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="barcode_button_text">Barcode</string>
+    
+</resources>

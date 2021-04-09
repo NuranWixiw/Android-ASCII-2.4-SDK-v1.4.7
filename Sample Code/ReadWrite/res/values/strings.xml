@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadWrite</string>
+    <string name="action_settings">Settings</string>
+    <string name="target_epc_label">Tag (Hex)</string>
+    <string name="word_address_label">Start Address\n(Words)</string>
+    <string name="word_count_label">Read Count\n(Words)</string>
+    <string name="memory_bank_label">Memory Bank</string>
+    <string name="data_label">Data to be written (Hex)</string>
+    <string name="power_level_label_text">dBm</string>
+    <string name="write_button_text">Write</string>
+    <string name="read_button_text">Read</string>
+    <string name="clear_button_text">Clear Results</string>
+    <string name="tag_info_text">Partial EPCs are matched from the start and actions will affect multiple tags. Write action must have at least a partial EPC specified.</string>
+    
+</resources>

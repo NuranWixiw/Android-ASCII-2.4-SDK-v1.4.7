@@ -1,0 +1,84 @@
+﻿Version History
+---------------
+14/05/2018      V1.4.7
+                Fixed bug in StringHelper.comparableVersionValue()
+13/02/2018      V1.4.6
+                Added missing TransponderAccessErrorCode enumeration for ACCESS_ERROR
+15/01/2018      V1.4.5
+                Added PopLoqMode parameter to FactoryDefaultsCommand to modify the behaviour of the 2128 ePop-Loq® connector.
+                Support added for the IH21 Bluetooth ® UHF RFID Reader
+21/12/2017      Support added for 2128 Bluetooth ® UHF RFID Reader.
+
+25/09/2017      Bug Fix: Null Pointer exception in BluetoothReaderService now trapped and AsciiCommander state change notification issued
+10/07/2017      Added BarcodeConfiguration package for modifying the behaviour of the Motorola Imager.
+                Added the Sample project BarcodeConfiguration to demonstrate the basic API for enabling and adjusting the Imager.
+                Improved the reconnect code to prevent users from attempting manual connect before the reconnect has finished.
+                When reconnecting, better informational messages are displayed.
+23/06/2017      Added the ConfigureBarcodeCommand.
+21/06/2017      Added an index for each tag scanned to aid soak-tests
+06/01/2017      BugFix: Requesting the DateTime stamp no longer causes the reporting of transponders to fail in InventoryCommand, ReadTransponderCommand, etc...
+                The VersionInformationCommand now includes a property identifying the RF Engine uhf API version (for diagnostic purposes)
+                Sample projects now include the coarse location permission to allow the DeviceList Scan operation to work properly on Android v6+.
+
+20/12/2016      Rfid.AsciiProtocol-Library:
+                Improved performance with some Android v4 and Android v6 devices
+                The library is now distributed as an .arr file in the Rfid.AsciiProtocol-Library module
+
+                Sample Projects:
+                BugFix: Power level bar in Inventory and Read/Write Sample projects now adjusts and defaults to
+                        the maximum level for the connected reader
+
+10/11/2016      Fixed issue when Arabic language is set on the Android device.
+
+13/07/2016      Added support for antenna power below 10 for 1128 readers with firmware >= v4.2.0
+
+08/07/2016      Support added for the 1166 Bluetooth ® Rugged UHF RFID Reader in DeviceProperties class
+                Updated to support ASCII Protocol 2.4:
+                Added support for Impinj QT options on ReadTransponderCommand & WriteTransponderCommand
+                The ReadLogFileCommand can now determine the length of the log file (in bytes) and
+                    access the log in 512 byte blocks
+                InventoryCommand and ReadTransponderCommand now have a 'filter to strongest response' option
+                    and EPC identifier can now be omitted from responses
+                VersionInformationCommand now includes the Bluetooth Module Firmware Version
+                SwitchActionCommand now supports the AntennaDefaults option and can control the haptic feedback
+                Note - HID and BT related commands of ASCII protocol 2.4 are not implemented in this release
+
+                BugFix: ActionBar now visible in the Read/Write Sample
+                BugFix: The Index Number option on Inventory, ReadTransponder etc.. now assigns the correct
+                        index to tag responses
+
+09/01/2015      BugFix: BluetoothReaderService no longer leaves blocked threads each time it is stopped
+
+12/11/2014      Added LicenceKey Sample Project - demonstrates how to authorise a reader to only work with the reader supplier's software
+                Added LicenceKeyCommand - read/write/delete a licence key from the reader
+                Added getDeviceProperties() method to AsciiCommander that returns an object describing reader properties that may be
+                    different to the ASCII protocol limits in the library e.g. antenna power
+                Updated Inventory Sample project to demonstrate use of getDeviceProperties() method.
+                Added Bluetooth Address to VersionInformationCommand
+                Added switch repeat rate parameters to the SwitchActionCommand
+                Added SleepTimeoutCommand to configure the reader's sleep timeout duration
+                Updated to the latest Android v4 support library.
+                BugFix:	Life-cycle delegate responseBegan() method is no longer incorrectly invoked for non-library responses
+                        when the responder is not capturing non-library responses
+
+
+18/12/2013      BugFix: TransponderResponder no longer consumes the OK: and ER: responses.
+13/12/2013      BugFix: SwitchStateCommand state property is now a SwitchState not a SwitchAction!
+09/12/2013      Added Kill command
+06/12/2013      Added Lock command
+04/12/2013      Added Auto-run file commands
+                Added ReadLogFileCommand
+                AsciiCommander synchronous command timeout is now based on time since last reader response
+                Added WriteTransponderCommand
+
+03/12/2103      Added SwitchSinglePressUserActionCommand
+                Added SwitchDoublePressUserActionCommand
+                Added SwitchSinglePressCommand
+                Added SwitchDoublePressCommand
+
+02/12/2013      SwitchResponder class added for monitoring asynchronous switch reports
+                BugFix: SwitchAction now implements the ControlParameters correctly
+
+20/11/2013      AsciiCommander and BluetoothReaderService are now more robust when stopping and starting.
+                BluetoothReaderService no longer constructed with unused AsciiCommander.
+                BugFix: Repeated calls to AsciiCommander.connect() no longer causes SIGSEGV when closing bluetooth socket twice.

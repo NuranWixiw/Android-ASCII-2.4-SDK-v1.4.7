@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android_ASCII_2.4_SDK_v1.4.7.iml" filepath="$PROJECT_DIR$/.idea/modules/Android_ASCII_2.4_SDK_v1.4.7.iml" group="Android_ASCII_2.4_SDK_v1.4.7" />
+      <module fileurl="file://$PROJECT_DIR$/Sample Code/ConfigureBarcode/ConfigureBarcode.iml" filepath="$PROJECT_DIR$/Sample Code/ConfigureBarcode/ConfigureBarcode.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code/ConfigureBarcode" />
+      <module fileurl="file://$PROJECT_DIR$/DeviceList/DeviceList.iml" filepath="$PROJECT_DIR$/DeviceList/DeviceList.iml" group="Android ASCII 2.4 SDK v1.4.7/DeviceList" />
+      <module fileurl="file://$PROJECT_DIR$/Sample Code/Inventory/Inventory.iml" filepath="$PROJECT_DIR$/Sample Code/Inventory/Inventory.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code/Inventory" />
+      <module fileurl="file://$PROJECT_DIR$/Sample Code/LicenceKey/LicenceKey.iml" filepath="$PROJECT_DIR$/Sample Code/LicenceKey/LicenceKey.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code/LicenceKey" />
+      <module fileurl="file://$PROJECT_DIR$/Sample Code/ReadWrite/ReadWrite.iml" filepath="$PROJECT_DIR$/Sample Code/ReadWrite/ReadWrite.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code/ReadWrite" />
+      <module fileurl="file://$PROJECT_DIR$/Rfid.AsciiProtocol-Library/Rfid.AsciiProtocol-Library.iml" filepath="$PROJECT_DIR$/Rfid.AsciiProtocol-Library/Rfid.AsciiProtocol-Library.iml" group="Android ASCII 2.4 SDK v1.4.7/Rfid.AsciiProtocol-Library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample Code/Sample_Code.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample Code/Sample_Code.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code" />
+      <module fileurl="file://$PROJECT_DIR$/Sample Code/Trigger/Trigger.iml" filepath="$PROJECT_DIR$/Sample Code/Trigger/Trigger.iml" group="Android ASCII 2.4 SDK v1.4.7/Sample Code/Trigger" />
+    </modules>
+  </component>
+</project>

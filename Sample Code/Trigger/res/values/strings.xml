@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trigger</string>
+
+    <string name="title">Trigger Status</string>
+
+    <string name="async_checkbox_title">Asynchronous Reports</string>
+
+    <string name="polling_checkbox">Polling</string>
+
+    <string name="configuration_info_label">Default Trigger actions are restored when both reports and polling are off.</string>
+
+    <string name="report_column_heading">Reports</string>
+
+    <string name="polled_column_heading">Polled</string>
+
+    <string name="status_single_text">Single</string>
+
+    <string name="status_double_text">Double</string>
+    
+</resources>
